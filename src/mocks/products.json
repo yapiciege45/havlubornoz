@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Havlu 1",
+        "description": "örnek deneme açıklaması havlu 1 ile alakalı",
+        "price": 200,
+        "defaultImg": "https://www.gelintekstil.com.tr/icerikResimler/86_386115718_47849.jpg",
+        "defaultColor": "blue",
+        "defaultDesign": "Çiçek",
+        "defaultQuality": "AA",
+        "colors": [
+            {
+                "id": 1,
+                "img": "https://www.gelintekstil.com.tr/icerikResimler/86_386115718_47849.jpg"
+            },
+            {
+                "id": 2,
+                "img": "https://www.gelintekstil.com.tr/resimKucult.asp?dosya=icerikResimler/86_386115718_70311.jpg&boyut=w&size=400"
+            },
+            {
+                "id": 3,
+                "img": "https://www.gelintekstil.com.tr/resimKucult.asp?dosya=icerikResimler/774_223026805_975.jpg&boyut=w&size=400"
+            },
+            {
+                "id": 4,
+                "img": "https://www.gelintekstil.com.tr/resimKucult.asp?dosya=icerikResimler/86_386115718_84773.jpg&boyut=w&size=400"
+            }
+        ],
+        "designs": [1,2,3],
+        "qualities": [1,2,3,4,5]
+    },
+    {
+        "id": 2,
+        "name": "Havlu 2",
+        "description": "örnek deneme açıklaması havlu 2 ile alakalı",
+        "defaultImg": "https://www.gelintekstil.com.tr/icerikResimler/86_386115718_47849.jpg",
+        "defaultColor": "blue",
+        "defaultDesign": "Çiçek",
+        "defaultQuality": "AA",
+        "price": 200,
+        "colors": [
+            {
+                "id": 1,
+                "img": "https://www.gelintekstil.com.tr/icerikResimler/86_386115718_47849.jpg"
+            },
+            {
+                "id": 2,
+                "img": "https://www.gelintekstil.com.tr/resimKucult.asp?dosya=icerikResimler/86_386115718_70311.jpg&boyut=w&size=400"
+            },
+            {
+                "id": 3,
+                "img": "https://www.gelintekstil.com.tr/resimKucult.asp?dosya=icerikResimler/774_223026805_975.jpg&boyut=w&size=400"
+            },
+            {
+                "id": 4,
+                "img": "https://www.gelintekstil.com.tr/resimKucult.asp?dosya=icerikResimler/86_386115718_84773.jpg&boyut=w&size=400"
+            }
+        ],
+        "designs": [1,2,3],
+        "qualities": [1,2,3,4,5]
+    },
+    {
+        "id": 3,
+        "name": "Havlu 3",
+        "description": "örnek deneme açıklaması havlu 3 ile alakalı",
+        "defaultImg": "https://www.gelintekstil.com.tr/icerikResimler/86_386115718_47849.jpg",
+        "defaultColor": "blue",
+        "defaultDesign": "Çiçek",
+        "defaultQuality": "AA",
+        "price": 200,
+        "colors": [
+            {
+                "id": 1,
+                "img": "https://www.gelintekstil.com.tr/icerikResimler/86_386115718_47849.jpg"
+            },
+            {
+                "id": 2,
+                "img": "https://www.gelintekstil.com.tr/resimKucult.asp?dosya=icerikResimler/86_386115718_70311.jpg&boyut=w&size=400"
+            },
+            {
+                "id": 3,
+                "img": "https://www.gelintekstil.com.tr/resimKucult.asp?dosya=icerikResimler/774_223026805_975.jpg&boyut=w&size=400"
+            },
+            {
+                "id": 4,
+                "img": "https://www.gelintekstil.com.tr/resimKucult.asp?dosya=icerikResimler/86_386115718_84773.jpg&boyut=w&size=400"
+            }
+        ],
+        "designs": [1,2,3],
+        "qualities": [1,2,3,4,5]
+    },
+    {
+        "id": 4,
+        "name": "Havlu 4",
+        "description": "örnek deneme açıklaması havlu 4 ile alakalı",
+        "defaultImg": "https://www.gelintekstil.com.tr/icerikResimler/86_386115718_47849.jpg",
+        "defaultColor": "blue",
+        "defaultDesign": "Çiçek",
+        "defaultQuality": "AA",
+        "price": 200,
+        "colors": [
+            {
+                "id": 1,
+                "img": "https://www.gelintekstil.com.tr/icerikResimler/86_386115718_47849.jpg"
+            },
+            {
+                "id": 2,
+                "img": "https://www.gelintekstil.com.tr/resimKucult.asp?dosya=icerikResimler/86_386115718_70311.jpg&boyut=w&size=400"
+            },
+            {
+                "id": 3,
+                "img": "https://www.gelintekstil.com.tr/resimKucult.asp?dosya=icerikResimler/774_223026805_975.jpg&boyut=w&size=400"
+            },
+            {
+                "id": 4,
+                "img": "https://www.gelintekstil.com.tr/resimKucult.asp?dosya=icerikResimler/86_386115718_84773.jpg&boyut=w&size=400"
+            }
+        ],
+        "designs": [1,2,3],
+        "qualities": [1,2,3,4,5]
+    }
+]

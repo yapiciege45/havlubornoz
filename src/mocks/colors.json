@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "red",
+        "hex": "red"
+    },
+    {
+        "id": 2,
+        "name": "blue",
+        "hex": "blue"
+    },
+    {
+        "id": 3,
+        "name": "gray",
+        "hex": "gray"
+    },
+    {
+        "id": 4,
+        "name": "yellow",
+        "hex": "yellow"
+    },
+    {
+        "id": 5,
+        "name": "orange",
+        "hex": "orange"
+    },
+    {
+        "id": 6,
+        "name": "purple",
+        "hex": "purple"
+    }
+]
