@@ -14,12 +14,12 @@ const notoBold = Noto_Sans({
 
 export default function ProductComponent({product, colors, designs, qualities, saves, changeCurrent, current}) {
   return (
-    <div className='w-10/12 min-h-screen mx-auto flex'>
+    <div className='w-10/12 mx-auto flex mt-40'>
         <div className='w-1/2 flex justify-center'>
             {current && <img className='w-1/2 h-80' src={current.img} alt="" />}
             {!current && <img className='w-1/2 h-80' src={product.defaultImg} alt="" />}
         </div>
-        <div className='flex flex-col'>
+        <div className='flex flex-col overflow-y-scroll scrollbar-hide'>
             <h1 className={`${notoBold.className} text-4xl font-bold mt-2 mb-3`}>{product.name}</h1>
             <p className={`${noto.className} text-xl`}>{product.description}</p>
             <p className={`${noto.className} mt-5 text-xl`}>{`${product.price} TL`}</p>
@@ -73,6 +73,7 @@ export default function ProductComponent({product, colors, designs, qualities, s
                     </div>
                 )}
             </div>
+            <a href={`/edit/${product.id}`} className={`${notoBold.className} font-bold text-xl w-full p-3 flex justify-center rounded-xl mt-5 items-center text-black hover:text-white hover:bg-black transition-all border-2 border-black`}>Kişiselleştir</a>
         </div>
     </div>
   )

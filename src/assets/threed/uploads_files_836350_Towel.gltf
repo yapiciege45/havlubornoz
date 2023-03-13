@@ -1,0 +1,213 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.4.50",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_materials_sheen"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cylinder",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067690849304
+            ],
+            "scale" : [
+                0.03008393943309784,
+                0.03008393943309784,
+                0.03008393943309784
+            ],
+            "translation" : [
+                -0.0071487282402813435,
+                1.1684823036193848,
+                -1.0717309713363647
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Plane",
+            "rotation" : [
+                0.5059911012649536,
+                0,
+                0,
+                0.8625386953353882
+            ],
+            "scale" : [
+                2,
+                1,
+                1
+            ],
+            "translation" : [
+                0,
+                1.149159550666809,
+                -1
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material.003",
+            "pbrMetallicRoughness" : {}
+        },
+        {
+            "doubleSided" : true,
+            "extensions" : {
+                "KHR_materials_sheen" : {
+                    "sheenColorFactor" : [
+                        1,
+                        1,
+                        1
+                    ],
+                    "sheenRoughnessFactor" : 1
+                }
+            },
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {}
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cylinder.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Plane",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 416,
+            "max" : [
+                1,
+                2.987673282623291,
+                1
+            ],
+            "min" : [
+                -1,
+                -1,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 416,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 2484,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 5356,
+            "max" : [
+                0.26603198051452637,
+                0.06983619928359985,
+                2.5026447772979736
+            ],
+            "min" : [
+                -0.24495859444141388,
+                -1.2059986591339111,
+                -0.055900074541568756
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 5356,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 31212,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 4992,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4992,
+            "byteOffset" : 4992,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4968,
+            "byteOffset" : 9984,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 64272,
+            "byteOffset" : 14952,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 64272,
+            "byteOffset" : 79224,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 62424,
+            "byteOffset" : 143496,
+            "target" : 34963
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 205920,
+            "uri" : "uploads_files_836350_Towel.bin"
+        }
+    ]
+}
